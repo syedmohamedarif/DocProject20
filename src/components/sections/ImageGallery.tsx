@@ -6,7 +6,7 @@ const images = [
     alt: "Doctor consulting with patient",
   },
   {
-    url: "https://images.unsplash.com/photo-1579684385127-1ef15d508118",
+    url: "https://drive.google.com/file/d/1SHziqV9TNRQAXykYiDgtNc_-L1NKEHwI/view?usp=sharing",
     alt: "Medical consultation",
   },
   {
