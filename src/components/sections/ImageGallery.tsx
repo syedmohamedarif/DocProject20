@@ -2,16 +2,16 @@ import Container from '../ui/Container';
 
 const images = [
   {
-    url: "/src/assets/operate.jpg",
-    alt: "Doctor consulting with patient 1",
+    url: "https://images.unsplash.com/photo-1622253692010-333f2da6031d",
+    alt: "Doctor consulting with patient",
   },
   {
-    url: "/src/assets/probe.jpg",
-    alt: "Doctor consulting with patient 2",
+    url: "https://images.unsplash.com/photo-1579684385127-1ef15d508118",
+    alt: "Medical consultation",
   },
   {
-    url: "/src/assets/pink.jpg",
-    alt: "Doctor consulting with patient 3",
+    url: "https://images.unsplash.com/photo-1638202993928-7d113b8e4439",
+    alt: "Doctor with patient",
   },
 ];
 
@@ -29,7 +29,6 @@ export default function ImageGallery() {
                 src={image.url}
                 alt={image.alt}
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                loading="lazy"
               />
             </div>
           ))}
