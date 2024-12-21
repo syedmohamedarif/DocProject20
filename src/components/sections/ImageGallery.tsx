@@ -1,17 +1,20 @@
 import Container from '../ui/Container';
+import consultation1 from '../assets/operate.jpg';
+import consultation2 from '../assets/probe.jpg';
+import consultation3 from '../assets/pink.jpg';
 
 const images = [
   {
-    url: "https://images.unsplash.com/photo-1622253692010-333f2da6031d",
-    alt: "Doctor consulting with patient",
+    url: consultation1,
+    alt: "Doctor consulting with patient 1",
   },
   {
-    url: "https://drive.google.com/file/d/1SHziqV9TNRQAXykYiDgtNc_-L1NKEHwI/view?usp=sharing",
-    alt: "Medical consultation",
+    url: consultation2,
+    alt: "Doctor consulting with patient 2",
   },
   {
-    url: "https://images.unsplash.com/photo-1638202993928-7d113b8e4439",
-    alt: "Doctor with patient",
+    url: consultation3,
+    alt: "Doctor consulting with patient 3",
   },
 ];
 
@@ -29,6 +32,7 @@ export default function ImageGallery() {
                 src={image.url}
                 alt={image.alt}
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                loading="lazy"
               />
             </div>
           ))}
